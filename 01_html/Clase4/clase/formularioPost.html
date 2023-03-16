@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Solicitud de viaje</h3>
+
+    <!-- método post es más seguro, no envía la info x la url
+     -->
+    <form action="server/validarLoginFace.html" method="post">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" required>
+        </div>
+
+        <div>
+            <label for="fechaViaje">Fecha Viaje</label>
+            <input type="date" name="fechViaj" id="fechViaj">
+        </div>
+
+        <div>
+            <label for="foto">Foto Perfil</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+
+        <div>
+            <input type="number" name="edad" id="edad" placeholder="Ingrese su edad" min="1" max="99">
+        </div>
+
+        <div>
+            <input type="color" name="color" id="">
+        </div>
+
+        <div>
+            <label for="mes">Mes</label>
+
+            <input type="radio" name="mes" id="mes" value="1">Mes1</input>
+            <input type="radio" name="mes" id="mes" value="2">Mes2</input>
+            <input type="radio" name="mes" id="mes" value="3">Mes3</input>
+            <input type="radio" name="mes" id="mes" value="4">Mes4</input>
+            <input type="radio" name="mes" id="mes" value="5">Mes5</input>
+            <input type="radio" name="mes" id="mes" value="6">Mes6</input>
+            <input type="radio" name="mes" id="mes" value="7">Mes7</input>
+            <input type="radio" name="mes" id="mes" value="8">Mes8</input>
+            <input type="radio" name="mes" id="mes" value="9">Mes9</input>
+            <input type="radio" name="mes" id="mes" value="10">Mes10</input>
+            <input type="radio" name="mes" id="mes" value="11">Mes11</input>
+            <input type="radio" name="mes" id="mes" value="12">Mes12</input>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Iniciar Sesión">
+        </div>
+    </form>
+    
+</body>
+</html>

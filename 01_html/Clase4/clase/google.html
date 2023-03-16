@@ -1,0 +1,74 @@
+<!-- archivo html 5 -->
+<!DOCTYPE html>
+
+<!-- la raíz html -->
+<html lang="en">
+
+<!-- encabezado, info para el navegador chrome, firefox, edge -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+
+<!-- lo que ve el usuario en el navegador -->
+<body style="text-align: center;">
+    
+    <!-- logo google -->
+    <img src="images/logoGoogleAnt.png" alt="Google" >
+
+    <!-- div agrupa elementos o etiquetas o tags -->
+    <div style="background-color: rgb(234, 230, 230);">
+
+        <!-- texto -->
+        <p>Search de web using google!</p>
+        <!-- caja ingregso texto, input -->
+        <input type="text" name="g" id="g" size="50">
+
+        <!-- agrupa select y los botónes, para que se vean debajo del input -->
+        <div >
+            <select name="cantResult">
+                <option value="10">10 results</option>
+                <option value="50" >50 results</option>
+                <option value="100">100 results</option>
+            </select>   
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm feeling lucky">
+        </div>
+        <div >
+            Index contains - 25 millons pages            
+        </div>
+    </div>
+
+    <!-- caja blanca -->
+    <div>
+        <!-- no usar br, está deprecado, luego utilizaremos style margin -->
+        <br>
+        <div >
+            <a href="https://about.google/intl/es-419/" target="_blank">About Google!</a>
+        </div>
+        <div>
+            <a href="#">Standford University</a>
+            <a href="#">Linux Search</a>
+        </div>
+    </div>
+
+    <!-- caja gris -->
+    <div style="background-color: rgb(234, 230, 230);">
+        <p>Get Google! updates monthly!</p>
+        <div>
+            <input type="text" name="email" id="email" value="your e-mail">
+            <input type="button" value="Subscribe">
+            <a href="#">Archive</a>
+        </div>
+    </div>
+    
+    <!-- caja blanca -->
+    <div>
+        Copyright © 1997-8 Standford University     
+    </div>
+    
+
+</body>
+</html>
