@@ -1,0 +1,56 @@
+.encabezado {
+    text-align: right;
+    font-size: .8rem;
+    margin: 1rem;
+
+}
+
+.imgPerfil {
+    width: 35px;
+    height: 35px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+.encabezado > a {
+    margin-left: .4rem;
+    margin-right: .4rem;
+    text-decoration: none;
+    color: rgb(37, 37, 37);    
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario > form > input {
+    margin-bottom: 2rem;
+}
+
+.inputBusc {
+    width: 600px;
+    border: 1px solid lightgray;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.btnBusc {
+    border: 0;
+    padding: .5rem 1rem .5rem 1rem;
+    /* padding-top: .5rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem; */
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(70, 70, 70);
+    font-size: .9rem;
+}

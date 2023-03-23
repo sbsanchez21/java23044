@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background-color: black;
+}
+
+.caja1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #D0D3D4;
+    border-radius: .5rem;
+    border: 1.5px solid;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+.caja2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 156, 207);
+    border-radius: .5rem;
+    border: 1.5px solid;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+
+.caja3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(151, 156, 207);
+    border-radius: .5rem;
+    border: 1.5px solid;
+    margin: .5em;
+    padding: 1em;
+}

@@ -1,0 +1,15 @@
+.caja {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: red;
+  color: gold;
+}
+
+#posRelative {
+  position: fixed;
+  top: 50px;
+  left: 60px;
+  background: black;
+}
+

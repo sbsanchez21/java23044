@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/selectoresEC.css">
+</head>
+<body>
+
+    <!-- selectores de etiqueta -->
+    <p><span>L</span>orem ipsum, dolor sit amet consectetur adipisicing elit. Eum quas corporis aperiam maxime neque laborum minus ipsa eius fuga harum. Ex fuga mollitia minus doloremque vitae nostrum ipsum sapiente repudiandae.</p>
+
+    <span>Texto span</span>
+
+    <!-- selector de clase -->
+    <div class="titulo">Título de la página</div>
+    <div class="subtitulo fondoCeleste">Subtitulo de la página</div>
+    <p class="textoComun">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam deleniti inventore possimus nulla officia laboriosam animi saepe, dolorem quidem quo explicabo architecto labore aliquid debitis, odio doloribus velit, dignissimos dolor!</p>
+
+    <div class="textoSombra">Texto con sombras</div>
+
+    <div class="textoAlerta">Texto alerta</div>
+
+
+    <!-- selector de id -->
+    <!-- debe existir una sola etiqueta con este id -->
+    <div id="textoUnico">Texto con selector id</div>
+
+    <!-- esto no puede ocurrir -->
+    <!-- <p id="textoUnico">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit harum delectus ratione culpa itaque molestiae quasi totam fugit impedit ab corrupti sed, id laborum accusamus? Autem illum reiciendis perspiciatis nobis.</p> -->
+
+    <!-- selector de atributo -->
+    <br>
+    <h1>Selectores de atributo</h1>
+	<ul>
+        <li><a href="#textoAzul">Link Interno</a></li>
+        <li><a href="http://ejemplo.com">Link a ejemplo.com</a></li>
+        <li><a href="#sinMayusculas">Sin chequear Mayusculas link</a></li>
+        <li><a href="https://ejemplo.org">Ejemplo org link</a></li>
+        <li><a href="http://ConMAyusculas.com">ConMAyusculas link</a></li>
+        <li><a href="https://ejemplo.org">ejemplo https org link</a></li>
+        <li><a href="#" alt="Imagen Google">LInk a google</a></li>
+    </ul>	    
+
+    <input type="text" name="nombre" id="" placeholder="Ingrese su nombre">
+    <input type="text" name="apellido" id="" placeholder="Ingrese su apellido">
+
+
+    <!-- Jerarquías de selectores: style inline -> id -> class -> etiqueta -->
+    <br><br>
+    <h1>Jerarquías de etiquetas</h1>
+    <!-- selector de etiqueta -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, non.</p>
+    <!-- selector de clase pisa a etiqueta -->
+    <p class="textoRojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dicta.</p>
+    <!-- selector id pisa a clase -->
+    <p id="textoAzul">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, laborum?</p>
+    <!-- selector style inline pisa a id -->
+    <p style="color: lightpink;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, doloremque!</p>
+    
+</body>
+</html>

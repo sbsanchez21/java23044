@@ -1,0 +1,23 @@
+body {
+    background-image: url("../image/lizard.png");
+}
+
+.coloresHexadecimales {
+    font-size: 20px;
+    border: 2px solid;
+    background-color: #abb4be;
+}
+
+.coloresRGB {
+    font-size: 20px;
+    border: 2px solid;
+    background-color: rgba(42, 52, 190, 0.424);
+    padding: 2em;
+}
+
+.coloresXNombre {
+    font-size: 20px;
+    border: 2px solid;
+    background-color: snow;
+    margin: 2em;
+}

@@ -1,0 +1,61 @@
+- repaso
+
+- margin vs padding
+
+- em vs rem:
+    La unidad em tiene como referencia de medida el font-size del elemento actual.
+    La unidad rem tiene como referencia de medida el font-size del elemento root, la etiqueta <html> (en inglés sería como "root em").
+
+- colores en css
+    Notación hexadecimal #ffffff 
+    Notación hexadecimal abreviada #fff 
+    rgb números entre 0 y 255 rgb(100,0,255).
+    nombre color
+    Notación de color con porcentajes de RGB rgb(33%, 0%, 0%);
+
+- git y github
+https://git-scm.com/
+
+
+    
+- selectores
+
+- posicionamiento
+    static
+    El elemento es posicionado de acuerdo al flujo normal del documento. Las propiedades top, right, bottom, left, and z-index no tienen efecto. Este es el valor por defecto.
+
+    relative
+    El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo, con base en los valores de top, right, bottom, and left
+
+    fixed
+    El elemento es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado con relación al bloque contenedor inicial establecido por el viewport o ventana gráfica
+
+    absolute
+    El elemento es removido del flujo normal del documento. Es posicionado relativo a su ancestro posicionado más cercano, si lo hay; de lo contrario, se ubica relativo al bloque contenedor inicial.
+
+    sticky 
+    El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a su ancestro que se desplace más cercano y su bloque contenedor
+
+Ejercicios de CSS
+https://flukeout.github.io
+http://cssgridgarden.com
+https://flexboxfroggy.com/
+
+Selectores de colores
+https://htmlcolorcodes.com/es/
+https://www.w3schools.com/html/html_colors.asp
+
+Colores estandar soportados por todos los navegadores
+https://www.w3schools.com/colors/colors_names.asp
+
+
+
+- instalar git
+- crear cuenta en github
+- reiniciar VSC
+- new terminal en VSC
+- git init
+- git add Unidad 1 - Clase 2
+- git commit -m 'mensaje'
+- git remote add origin https://github.com/sbsanchez21/phpComision22037.git
+- git push -u origin master

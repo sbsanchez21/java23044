@@ -1,0 +1,105 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    color: black;
+}
+
+span {
+    font-size: large;
+    font-weight: 100;
+}
+
+.titulo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.textoComun {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fondoCeleste {
+    background-color: rgb(168, 219, 251);
+}
+
+.textoSombra {
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+}
+
+.textoAlerta {
+    font-weight: bold;
+    background-color: red;
+    color: rgb(26, 15, 184);
+    width: 20%;
+}
+
+#textoUnico {
+    font-weight: bold;
+    background-color: sandybrown;
+    color: black;
+    width: 20%;
+}
+
+.textoRojo {
+    color:rgb(224, 98, 98);
+}
+
+#textoAzul {
+    color: rgb(46, 87, 224);
+}
+
+/* selector univsersal * */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* selector de atributo */
+a {
+    color: black;
+}
+/* links que comiencen con # */
+a[href^="#"] {
+    background-color: red;
+}
+/* Links que contengan la palabra "ejemplo" en la URL */
+a[href*="ejemplo"] {
+    background-color: rgba(192, 192, 192, 0.698);
+}
+/* Links que terminen en ".org" */
+a[href$=".org"] {
+    color: rgb(46, 3, 12);
+  }
+/* Links que comienzan con "https" y terminan en ".org" */
+a[href^="https"][href$=".org"] {
+    color: green;
+  }
+
+
+/* link con la palabra "sinmayusculas"en la URL, sin chequear mayúsculas */
+a[href*="sinmayusculas" i] {
+    color: blue;
+  }  
+
+/* link con la palabra "ConMAyusculas"en la URL,
+   con chequeo de mayúsculas  */ 
+   a[href*="ConMAyusculas"] { 
+    color: orange; 
+  }  
+
+
+input[name*="nombre"] {
+    background-color: lightskyblue;
+}  
+
+input[name*="apellido"] {
+    background-color: #bdbd36;
+}

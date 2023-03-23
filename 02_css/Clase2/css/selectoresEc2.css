@@ -1,0 +1,110 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.textoGrande {
+    font-size: 1.5rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.textoComun {
+    font-weight: normal;
+    text-align: justify;
+    margin: 1rem 0.3rem;
+}
+
+.textoImportante {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: justify;
+    margin: 1rem 0.3rem;
+}
+
+.textoAlerta {
+    background-color: red;
+}
+
+#textoUnico {
+    color: blue;
+    text-align: right;
+}
+
+.textoRojo {
+    color: red;
+}
+
+#textoVioleta {
+    color: violet;
+}
+
+
+/* selector univsersal * */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* selector de atributo */
+a {
+    color: black;
+}
+a[href*="ejemplo"] {
+    background-color: red;
+}
+a[href^="#"] {
+    background-color: blue;
+}
+a[href$=".org"] {
+    color: rgb(169, 226, 25);
+}
+/* Links que comienzan con "https" y terminan en ".org" */
+a[href^="https"][href$=".org"] {
+    color: green;
+  }
+
+/* link con la palabra "sinmayusculas"en la URL, sin chequear mayúsculas */
+a[href*="sinmayusculas" i] {
+    color: blue;
+  }  
+
+/* link con la palabra "ConMAyusculas"en la URL,
+   con chequeo de mayúsculas  */ 
+   a[href*="ConMAyusculas"] { 
+    color: orange; 
+  }  
+  
+input[name="nombre"] {
+    background-color: lightsalmon;
+} 
+
+input[name*="ape"] {
+    background-color: lightseagreen;
+}

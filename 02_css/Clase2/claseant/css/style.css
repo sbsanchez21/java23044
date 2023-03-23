@@ -1,0 +1,35 @@
+p {
+    background-color: blue ;
+}
+
+ul {
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ddd;
+    
+}
+
+div {
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid;
+    margin: 1rem;
+}
+
+.textoTitulo {
+    text-align: center;
+    font-size: 2rem;
+    color: lightcoral;
+}
+
+.textoSubTitulo {
+    text-align: center;
+    font-size: 1.2rem;
+    color: lightblue;
+}
+
+#anuncio {
+    background-color: yellow;
+    text-align: center;
+    width: 100px;
+}

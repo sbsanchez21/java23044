@@ -1,0 +1,15 @@
+.margenPequeño {
+    margin: 20px;
+    padding: 15px;
+    background-color: lightblue;
+    border: 2px solid;
+    width: 60%;
+}
+
+.margenGrande {
+    margin: 40px;
+    padding: 50px;
+    background-color: lightblue;
+    width: 50%;
+    border: 2px solid;
+}

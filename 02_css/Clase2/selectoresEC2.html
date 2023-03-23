@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/selectoresEc2.css">
+</head>
+<body>
+    <!-- selectores de etiqueta -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, ullam!</p>
+    <h3>Titulo de la página</h3>
+
+    <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Labore, quibusdam.</p>
+
+    <!-- selectores de clases -->
+    <p class="textoGrande">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, recusandae?</p>
+    <a href="#" class="textoGrande">Link con texto grande</a>
+    <br>
+    <input type="text" placeholder="Ingrese su nombre" class="textoGrande" style="margin: 1rem 0rem;">
+
+    <br>
+    <div class="titulo">Titulo principal</div>
+    <div class="subtitulo">Subtitulo</div>
+    <div class="textoComun">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit optio doloribus dolor voluptatibus explicabo suscipit, laudantium ea dignissimos quae dolorum culpa omnis ex maiores quibusdam animi rerum corrupti assumenda molestiae itaque aliquid reprehenderit ad. Veniam cupiditate esse consequatur recusandae, dolorem quas quia repellendus nesciunt ducimus nobis odio illum provident eligendi dolores molestiae quam assumenda voluptates, necessitatibus alias deleniti nisi. Quaerat ea adipisci odit maiores omnis? Itaque consectetur molestias vero nulla cupiditate, minima eos atque ullam, excepturi nihil labore reiciendis dicta mollitia tempore animi quidem, aliquid sit laborum asperiores repellat incidunt nemo voluptate harum. Rerum id a pariatur fuga at maxime tempore quibusdam eos! Ad nemo labore sint, explicabo fugit aspernatur quod distinctio excepturi quo. Aliquid fuga quae, porro libero similique architecto harum natus numquam vel ad, voluptas placeat quia ex qui. Beatae minima officia asperiores aliquam iure similique minus fugiat vero voluptatem ipsam molestiae omnis nihil perferendis maiores, culpa maxime enim ab! Ducimus dolorum asperiores amet sit. In facilis assumenda repellendus odio nesciunt, illum placeat praesentium omnis repudiandae minima facere quis culpa nemo laborum neque porro mollitia alias ea nobis ipsa. Eveniet ducimus labore exercitationem. Blanditiis quam repudiandae dolore libero quos commodi neque delectus facilis architecto, tempore corrupti, culpa repellendus.</div>
+
+    <div class="subtitulo textoAlerta parpadea">Subtitulo 2</div>
+    <div class="textoImportante">Texto imporante Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, rem.</div>
+    <div class="textoComun parpadea">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae architecto dolore eius vel eveniet ea, illum nobis non? Accusamus veniam doloremque iste alias quasi. Ad impedit asperiores sapiente unde explicabo, eligendi ut autem voluptates corporis animi magnam reprehenderit illum consequuntur dolores optio tempore, expedita provident omnis! Corporis libero est, accusantium cumque, neque ut error magnam eius modi omnis sint. Hic qui, accusantium ullam ipsa ipsum nulla accusamus quasi reiciendis iste cupiditate vitae dolor nam quo. Odio ea vero, ratione officia eius error perspiciatis distinctio rerum tenetur maiores nam harum aliquam aperiam unde iusto sed sint, earum adipisci, laboriosam itaque. Facere.</div>
+
+    <!-- Selector id -->
+    <!-- este id debe ser único en toda la página -->
+    <div id="textoUnico">Texto unico style id</div>
+
+
+    <!-- selector de atributo -->
+    <br>
+    <h1>Selectores de atributo</h1>
+	<ul>
+        <li><a href="#textoAzul">Link Interno</a></li>
+        <li><a href="http://ejemplo.com">Link a ejemplo.com</a></li>
+        <li><a href="#sinMayusculas">Sin chequear Mayusculas link</a></li>
+        <li><a href="https://ejemplo.org">Ejemplo org link</a></li>
+        <li><a href="http://ConMAyusculas.com">ConMAyusculas link</a></li>
+        <li><a href="https://ejemplo.org">ejemplo https org link</a></li>
+        <li><a href="#" alt="Imagen Google">LInk a google</a></li>
+    </ul>	 
+
+    <br>
+    <input type="text" name="nombre" id="" placeholder="ingrese su nombre">
+    <br>
+    <input type="text" name="apellido" id="" placeholder="inigrese su apellido">
+    <input type="text" name="apel" id="" placeholder="inigrese su apellido">
+
+    <!-- Jerarquías de selectores: style inline -> id -> class -> etiqueta -->
+    <br><br>
+    <h1>Jerarquías de etiquetas</h1>
+    <!-- selector de etiqueta -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, non.</p>
+    <!-- selector de clase pisa a etiqueta -->
+    <p class="textoRojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nostrum!</p>
+    <!-- selector de id pisa a clase -->
+    <p id="textoVioleta" class="textoRojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, culpa!</p>
+    <!-- selector inline pisa a id -->
+    <p style="color: blue;" id="textoVioleta" class="textoRojo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nihil!</p>
+</body>
+</html>

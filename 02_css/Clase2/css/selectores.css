@@ -1,0 +1,69 @@
+span {
+	background-color: lightgreen;
+}
+p {
+	color: blue;
+}
+h1 {
+  background-color: #ABE5BE;
+}
+
+.red {
+  color:red;
+}
+.azul {
+  color: blue;
+}
+.yellow-bg {
+  background: yellow;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 10px 10px 3px #FF0000;
+}
+
+#verde {
+  color: green;
+}
+
+#confondo {
+  background-color: skyblue;
+}
+
+/* selector universal */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* selector de atributo */
+
+a {
+  color: black;
+}
+/* Links internos que comienzan con "#" */
+a[href^="#"] {
+  background-color: red;
+}
+/* Links que contengan la palabra "ejemplo" en la URL */
+a[href*="ejemplo"] {
+  background-color: silver;
+}
+/* link con la palabra "sinmayusculas"en la URL, sin chequear mayúsculas */
+a[href*="sinmayusculas" i] {
+  color: blue;
+}
+/* link con la palabra "ConMAyusculas"en la URL,
+   con chequeo de mayúsculas  */ 
+a[href*="ConMAyusculas"] { 
+  color: orange; 
+}
+/* Links que comienzan con "https" y terminan en ".org" */
+a[href^="https"][href$=".org"] {
+  color: green;
+}
+/* Links que terminen en ".org" */
+a[href$=".org"] {
+  color: red;
+}
+

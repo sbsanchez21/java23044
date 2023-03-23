@@ -1,0 +1,16 @@
+html {
+    font-size: 12px;
+    font-family: 'Palette Mosaic', cursive;
+}
+
+.paddingEm {
+    font-size: 20px;
+    padding: 4em; /* 20px * 4 = 80px*/
+    border: 2px solid;
+}
+
+.paddingRem {
+    font-size: 20px;
+    padding: 1.5rem; /* 12px * 2 = 24px*/
+    border: 2px solid;
+}

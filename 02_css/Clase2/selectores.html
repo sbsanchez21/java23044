@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/selectores.css">
+</head>
+
+<body>
+	
+	<!-- selector de tipo de etiqueta -->
+	<p>Lorem ipsum dolor sit <span>amet consectetur, adipisicing elit. </span>Vero, assumenda quam nemo consequuntur, tempora ad atque non illum fugit distinctio amet neque qui sequi nobis ipsa? Ad necessitatibus eveniet iure.</p>
+	<span>Acá hay un texto con color de fondo</span>
+	<p>Este es su segundo renglón</p>
+	<span>Acá la publicidad de Codo a Codo.</span>
+	<h1>Hola</h1>
+
+	<!-- selector de clase -->
+	<br>
+	<span class="red">Otro span</span>
+	<p class="red" >Este texto es rojo.</p>
+	<p class="azul">Texto azul</p>
+	<p class="red yellow-bg">Este texto es rojo con fondo amarillo.</p>
+	<p class="red fancy">Este renglón es rojo con sombra.</p>
+	<p>Este renglón no tiene ningún formato.</p>
+
+	<!-- selector de id -->
+	<br>
+	<div id="confondo">Este renglón tiene color de fondo azul</div>
+	<div>Este renglón no tiene fondo.</div>
+	
+	<!-- Jerarquías de selectores: style inline -> id -> class -> etiqueta -->
+	<br><br>
+	<h1>Jerarquías de selectores:</h1>
+	<p>Párrafo etiqueta</p>
+	<p class="red">Párrafo clase</p>
+	<p id="verde">Párrafo id</p>
+	<p style="color: blueviolet;">Párrafo style inlne</p>
+	<p class="red" id="verde" style="color: rgb(43, 61, 226);">Párrafo style inlne</p>
+	
+
+	<!-- selector de atributo -->
+	<br>
+	<ul>
+	  <li><a href="#interno">Link Interno</a></li>
+	  <li><a href="http://ejemplo.com">Link a ejemplo.com</a></li>
+	  <li><a href="#sinMayusculas">Sin chequear Mayusculas link</a></li>
+	  <li><a href="https://ejemplo.org">Ejemplo org link</a></li>
+	  <li><a href="http://ConMAyusculas.com">ConMAyusculas link</a></li>
+	  <li><a href="https://ejemplo.org">ejemplo https org link</a></li>
+	  <li><a href="#" alt="Imagen Google">LInk a google</a></li>
+	</ul>	
+	
+	
+	
+</body>
+
+</html>

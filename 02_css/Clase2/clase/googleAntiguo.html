@@ -1,0 +1,56 @@
+<!-- indica un archivo html 5 -->
+<!DOCTYPE html>
+
+<!-- raíz html -->
+<html lang="en">
+    <!-- encabezado info para el navegador chrome, firefox -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+
+<!-- lo que ve el usuario en el navegador -->
+<body style="text-align: center;">
+    
+    <div >
+        <img src="images/logoGoogleAnt.png" alt="Google" >
+    </div>
+
+    <form action="registro/inputGoogle.html" method="get">
+        <div style="background-color: lightgray;">
+            <p>Search de web usign google!</p>
+            <input type="text" name="q" id="q">
+            <div >
+                <select name="cantResult">
+                    <option value="10">10 results</option>
+                    <option value="20" selected >20 results</option>
+                    <option value="30">30 results</option>
+                </select>
+                <input type="submit" value="Google Search">
+                <input type="button" value="I'm felling lucky">
+            </div>
+            <p >Index contains - 25 millons pages</p>
+        </div>
+    </form>
+
+    <div>
+        <a href="#" >About Google!</a>
+        <br>
+        <a href="#">Standford Search</a>
+        <a href="#">Linux Search</a>
+    </div>
+    <form action="registro/inputRegistro.html">
+        <div style="background-color: lightgrey;">
+            <p>Get Google! Update monthly!</p>
+            <div>
+                <input type="text" name="email" id="email" value="your e-mail">
+                <input type="submit" value="Subscribe">
+                <a href="#">Archive</a>
+            </div>
+
+        </div>
+    </form>    
+</body>
+</html>

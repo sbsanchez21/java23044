@@ -1,0 +1,36 @@
+.menu {
+    text-align: right;
+}
+
+.menu > img {
+    width: 45px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.menu > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-size: .9rem;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo > img {
+    width: 250px;
+}
+
+.inputGoogle {
+    text-align: center;
+}
+
+.inputGoogle > input {
+    border: 1px solid;
+    border-radius: 30px;
+    height: 30px;
+    width: 502px;
+    cursor: pointer;
+}

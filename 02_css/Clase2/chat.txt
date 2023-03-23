@@ -1,0 +1,174 @@
+Carlos Piedrahita10:31
+Buenos días para todos
+Juan Centenaro10:31
+buenas
+Yeraldin Aguilar10:31
+Buenas! :)
+Diego Villegas10:31
+buen día
+Mónica Okuma10:31
+Buen dìa
+Jeremias Galinovsky10:31
+Buenas
+Leonardo Luis10:31
+Buen día
+Joaquín Vitali10:31
+buenos días
+Sebastian Gonzalez10:31
+Buenas!
+Brenda Diana Wügner10:32
+sí, un poco
+Damián Daporta10:32
+Buenas!
+Juan Centenaro10:32
+algo
+Carlos Piedrahita10:32
+Sí
+Cinthia Bustos11:06
+profe cuál es el plugin que te permite seleccionar las diferentes medidas de pantallas?
+gracias
+Tú11:10
+me siguen? voy muy rápido
+Damián Daporta11:10
+Bien bien
+Cinthia Bustos11:10
+si ok
+Hernán Ricardo Asorey11:11
+si ok
+Carlos Piedrahita11:25
+Vamos a ver Flex en el curso?
+Fabio Martín Aoad11:27
+usaremos el google drive o github?
+Juan Centenaro11:27
+genial, gracias
+Tú11:28
+pausa activa 10', sin clases, ni consultas, ni profes
+Diego Villegas11:28
+ok
+Brenda Diana Wügner11:38
+sí
+Leopoldo Enrique MOLERO MIRANDA11:38
+Sí, gracias.
+Joaquín Vitali11:39
+sí, a veces un poco rápido
+ok
+Tú11:40
+https://git-scm.com/
+Brenda Diana Wügner11:41
+git bash tengo yo
+es lo mismo?
+Camila Catalano11:45
+creo q si
+yo tengo el mismo y nunca tuve drama
+Tú11:47
+https://www.datacamp.com/community/tutorials/git-push-pull
+Maximiliano Villalva11:53
+para agregar todos yo uso: git add -A
+Tú11:57
+- instalar git
+- crear cuenta en github
+- new terminal
+- git init
+- git add "archivo"
+- git commit -m 'mensaje'
+- git remote add origin https://github.com/sbsanchez21/phpComision22037.git
+- git push -u origin master
+https://github.com/sbsanchez21/phpComision22037.
+Tú11:59
+svn tortoise
+----------------------------------
+Guillermo Cristobal12:00
+Presente
+Cinthia Bustos12:00
+presente
+Sebastian Gonzalez12:00
+Presente
+Facundo Delgado12:00
+Presente
+Joaquín Vitali12:00
+presente
+Brenda Diana Wügner12:00
+PRESENTE
+Hernán Ricardo Asorey12:00
+Presente
+Hernan Visconti12:00
+presente
+Juan Centenaro12:00
+Presente
+Fabio Martín Aoad12:00
+presente
+Leopoldo Enrique MOLERO MIRANDA12:00
+Presente.
+leandro leguizamon12:00
+presente
+Tomas Casco12:00
+presente
+Jeremias Galinovsky12:00
+Presente
+FERNANDO DANIEL MAQUEDA12:00
+Presente
+Josue Santos12:00
+Presente
+Mónica Okuma12:00
+Presente
+Diego Villegas12:00
+presente
+Yeraldin Aguilar12:00
+*PRESENTE*
+Leonardo Wolf12:00
+Presente
+yamila liendro12:00
+presente
+Carlos Piedrahita12:00
+Presente
+Mateo Spinelli12:00
+Presente
+malena rocco12:00
+presente
+Romina Saravia12:00
+Presente
+Maximiliano Villalva12:00
+presente
+Jorge Martín Domínguez Diaz12:00
+presente
+Damián Daporta12:00
+Presente
+juan de dios12:00
+Presente
+Ivan Neiff12:00
+Presente
+Juan Manuel Burdet12:00
+presente
+Martin Araneda12:00
+Martin araneda presente
+juan de dios12:00
+presente
+Mónica Okuma12:00
+Camila Catalano Presente
+juan de dios12:00
+asta luego
+con h
+Leonardo Luis12:00
+Presente
+Mónica Okuma12:00
+(A Camila se le colgó la compu)
+cyn bravo12:00
+Presente
+Christian Salerno12:01
+Presente
+Tú12:01
+----------------------
+Camila Campagna12:01
+Presente
+Mateo Spinelli12:01
+presente
+cristian yogi12:01
+presente
+Juan Centenaro12:01
+chau gracias
+Carlos Piedrahita12:01
+Gracias, feliz día
+Leopoldo Enrique MOLERO MIRANDA12:01
+Hasta el jueves.
+Mónica Okuma12:01
+Gracias

@@ -1,0 +1,93 @@
+a {
+    background-color: lightblue;
+}
+
+p {
+    background-color: lightcyan!important; /* important pisa a todas las sobreescrituras */
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: center;
+    color: blue;
+}
+
+.parrafoDif {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: center;
+
+}
+
+/* selector de etiqueta */
+ul {
+    background-color: lightgreen;
+}
+
+table {
+    background-color: lightgray;
+    width: 50%;
+    border: 1px solid black;
+}
+
+td {
+    padding: .5rem;
+    border: 1px solid black;
+    text-align: center;
+    /* background-color: lightsalmon; */
+}
+
+tr {
+    height: 50px;
+    margin: 2rem;
+}
+
+/* selector de clase */
+.titulo {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightcoral;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.subtitulo {
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightgray;
+    padding: .5rem;
+}
+
+.texto {
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 1rem;
+    /* border: 1px solid black; */
+    padding: .5rem;
+}
+
+body {
+    /* background-image: url("../images/logoGoogle.png"); */
+}
+
+.tablaExtensa {
+    background-color: lightseagreen;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tablaReducida {
+    background-color: lightsalmon;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}

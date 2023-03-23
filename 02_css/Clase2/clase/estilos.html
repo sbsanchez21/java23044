@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- vinculo este html con el archivo css externo -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <style>
+        /* a {
+            background-color: red;
+        }
+
+        p {
+            background-color: aquamarine;
+            padding: 1rem;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 5px;
+        } */
+
+        p {
+            background-color: blue!important;
+            font-size: 2rem;
+            color: aqua;
+        }
+
+        a {
+            background-color: brown;
+            padding: 1rem;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- html sin style o css (Cascading Style Sheets) -->
+    <p>Lorem ipsum dolor sit amet. </p>
+
+    <!-- html con style deprecados, NO utilizar -->
+    <p align="left">Lorem ipsum dolor sit amet.</p>
+
+    <!-- html con style -->
+    <!-- style inline -->
+    <div style="border: 1px solid black; border-radius: 10px; padding: 1rem; background-color: lightcoral;">Lorem ipsum dolor sit amet.</div>
+
+    <!-- style head -->
+    <br>
+    <a href="">hola</a>
+    <br>
+    <a href="">link2</a>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <a href="">dddd</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, fuga voluptas consectetur praesentium atque sed.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- style en archivo externo -->
+    <p>toma los estilos del archivo externo u hoja de estilos</p>
+
+    <!-- utilización del div y span en css -->
+    <!-- encabezado -->
+    <div style="text-align: center; font-size: 2rem; border: 1px solid black;">
+        <div>
+            Bievenidos
+        </div>
+        <div>
+            Esta es nuestra página de inicio
+        </div>
+    </div>
+
+    <div style="color: blue;">
+        <span style="color: red;">Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit. Consequatur pariatur est eaque. Iusto, dolorum quibusdam.
+    </div>
+
+    <!-- sobreescritura de estilos -->
+    <!-- archivo externo -> style head -> style inline -->
+    <p style="color: black; text-align: right;">ddddddddddddddddd.</p>
+    <p class="parrafoDif">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, deleniti!</p>
+
+
+    <!-- selectores, formar de estilos a un elemento o etiqueta de html -->
+    <!-- selector de etiqueta -->
+    <ul>
+        <li>Socio 01</li>
+        <li>Socio 02</li>
+        <li>Socio 03</li>
+        <li>Socio 04</li>
+        <li>Socio 05</li>
+    </ul>
+
+    <ul>
+        <li>01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+    </ul>
+
+    <table>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+            <td>Alumno 4</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>02</td>
+            <td>03</td>
+        </tr>
+    </table>
+
+    <table class="tablaExtensa">
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+    </table>
+
+    <table class="tablaReducida">
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+        <tr>
+            <td>Alumno 1</td>
+            <td>Alumno 2</td>
+            <td>Alumno 3</td>
+        </tr>
+    </table>
+
+    <!-- selector de clase -->
+    <div class="titulo">
+        Bienvenidos a mi página
+    </div>
+
+    <div class="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusantium amet, doloribus corporis quisquam culpa tempore perspiciatis animi, fugit aspernatur alias sapiente obcaecati autem facere eum reprehenderit quibusdam suscipit cupiditate.
+    </div>
+
+    <a href="" class="texto">link</a>
+
+    <div class="titulo">
+        Noticias
+    </div>
+    <div class="subtitulo">
+        Noticias de hoy
+    </div>
+    <div class="texto">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nesciunt eligendi, temporibus natus maiores dolorem ducimus tempore illum quisquam officiis laboriosam, excepturi distinctio illo! Adipisci minus est possimus in optio.
+    </div>
+
+    <a href="" class="titulo">titulo link</a>
+</body>
+</html>
