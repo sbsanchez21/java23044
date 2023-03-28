@@ -1,0 +1,17 @@
+.caja {
+    position: relative;
+    display: inline-block;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: none; */
+    width: 100px;
+    height: 100px;
+    /* background: black; */
+    padding: 50px;
+    /* margin: 50px; */
+    border: 2px solid black;
+    background: blue;
+    color: gold;
+  }
+  

@@ -1,0 +1,9 @@
+.sticky {
+    border: 2px solid;
+    background-color: lightblue;
+    margin: 1rem;
+    padding: 1rem;
+    position: sticky;
+    top: 10px;
+
+}

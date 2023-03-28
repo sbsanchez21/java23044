@@ -1,0 +1,30 @@
+a:visited {
+    color: indianred;
+}
+
+a:hover {
+    font-size: 1.1rem;
+    cursor: all-scroll;
+}
+
+div:hover {
+    background-color: lavender;
+}
+
+li:nth-child(2n+1) {
+    background-color: red;
+}
+
+table {
+    /* border: 1px solid; */
+    /* background-color: lightblue; */
+    width: 50%;
+}
+
+table tr  {
+    border: 1px solid;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}

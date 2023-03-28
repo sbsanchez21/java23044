@@ -1,0 +1,14 @@
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: .5rem;
+}
+
+#posicionamiento {
+    position: absolute;
+    /* top: 50px;
+    right: 30px; */
+    background-color: blue;
+}

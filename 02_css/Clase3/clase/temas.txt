@@ -1,0 +1,25 @@
+- posicionamiento
+    static
+    El elemento es posicionado de acuerdo al flujo normal del documento. Las propiedades top, right, bottom, left, and z-index no tienen efecto. Este es el valor por defecto.
+
+    relative
+    El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a sí mismo, con base en los valores de top, right, bottom, and left
+
+    fixed
+    El elemento es removido del flujo normal del documento, sin crearse espacio alguno para el elemento en el esquema de la página. Es posicionado con relación al bloque contenedor inicial establecido por el viewport o ventana gráfica
+
+    absolute
+    El elemento es removido del flujo normal del documento. Es posicionado relativo a su ancestro posicionado más cercano, si lo hay; de lo contrario, se ubica relativo al bloque contenedor inicial.
+
+    sticky 
+    El elemento es posicionado de acuerdo al flujo normal del documento, y luego es desplazado con relación a su ancestro que se desplace más cercano y su bloque contenedor
+
+- diplay: La propiedad CSS display especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos. Establece los tipos de visualización interna y externa de un elemento.
+    inline y block direction
+    inline: el elemento inline se comporta como un inline-block, de mínima anchura
+    block: uno abajo del otro 
+    inline-block: se comporta como inline pero se pueden definir height y width values
+    none: no lo muestra
+    flex: align-item, justify-content
+
+- float: ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos aparecer a su costado.     

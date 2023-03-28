@@ -1,0 +1,14 @@
+.caja {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: whitesmoke;
+}
+
+#posStatic {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background: blue;
+}

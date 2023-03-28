@@ -1,0 +1,24 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    background-color: red;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.fondoAzul {
+    background-color: blue;
+}
+
+/* para colocar un estilo diferente al resto de la página */
+#anuncio {
+    background-color: rgba(23, 25, 26, 0.5);
+    font-size: 2rem;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}

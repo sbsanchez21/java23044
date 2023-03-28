@@ -1,0 +1,13 @@
+span { 
+	background-color: red; 
+}
+
+
+div > span  { 
+	background-color: yellow; 
+}
+
+span > div { 
+	background-color: blue; 
+}
+

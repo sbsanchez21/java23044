@@ -1,0 +1,15 @@
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.pos {
+    position: static;
+    top: 10px;
+    left: 10px;
+    background-color: blue;
+}
+  
