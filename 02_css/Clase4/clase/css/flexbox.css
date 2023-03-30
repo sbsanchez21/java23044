@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    background-color: lightseagreen;
+    height: 150px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap;     */
+
+    /* justify-content: stretch; */
+
+    align-items: center;
+}
+
+
+.flex-container > div {
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu > li {
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin: 1rem;
+}

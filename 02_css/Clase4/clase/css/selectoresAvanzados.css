@@ -1,0 +1,22 @@
+a[href="www.google.com"] {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 1rem;
+}
+
+input[type="text"] {
+    background-color: blue;
+}
+
+input[type="number"] {
+    background-color: yellowgreen;
+}
+
+div:hover {
+    background-color: rebeccapurple;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
