@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* etiqueta */
+span { 
+	background-color: red; 
+}
+
+.texto {
+	color: wheat;
+}
+
+#anuncio {
+	color: rebeccapurple;
+}
+
+
+/* selectores descendientes */
+/* selecciona dentro de un span todos los div; ramas y subramas */
+span div { 
+	background-color: lightgreen; 
+}
+
+div span  { 
+	background-color: lightblue; 
+}
+
+
+/* Selecciona el <p> inmediato*/
+div > p { 
+	background-color: red;
+}
+
+/* Selecciona todos los hijos <p>*/
+/* div p { 
+	background-color: lightgrey;
+} */
+
+/* Hermano adjacente */
+/* h1 + p {
+	color: magenta;
+} */
+
+/* Todos los hermanos  */
+h1 ~ p { 
+	color: magenta;
+}
+

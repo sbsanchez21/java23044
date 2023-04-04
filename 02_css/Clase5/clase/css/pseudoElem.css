@@ -1,0 +1,33 @@
+.intro::first-line {
+    background-color:lightblue;
+}
+
+.intro::first-letter {
+    font-size: 2rem;
+}
+
+.intro::selection {
+    background-color: yellow;
+}
+
+.nota::before {
+    content: "Leer nota";
+    font-size: 2rem;
+    background-color: lightcoral;
+}
+
+.cita::after {
+    content: "cita del libro Martín Fierro";
+    background-color: rebeccapurple;
+}
+
+input[type="text"]::placeholder {
+    color: red;
+    /* font-size: 1.5rem; */
+}
+
+ul li::marker {
+    color: red;
+    font-size: 1.5em;
+  }
+  

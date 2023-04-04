@@ -1,0 +1,65 @@
+html {
+    font-size: 16px;
+}
+
+input[type="button"] {
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.texto {
+    background-color: lightgrey;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.texto:hover {
+    font-size: 1.5rem;
+    background-color: gray;
+}
+
+
+.inputQuery {
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    width: 100px;
+    height: 35px;
+}
+
+.inputQuery:focus {
+    width: 300px;
+}
+
+li:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+}
+
+tr:nth-child(2n+1) {
+    background-color: lightblue;
+}
+
+:not(p) {
+    font-size: 1.5rem;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+input:required {
+    border: 1px solid red;
+}
