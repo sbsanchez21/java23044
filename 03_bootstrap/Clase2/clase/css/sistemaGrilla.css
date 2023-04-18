@@ -1,0 +1,6 @@
+.titulo {
+    font-size: 2rem;
+    font-style: italic;
+    color: red; /*lo sobrescribe bootstrap text-color*/
+}
+
