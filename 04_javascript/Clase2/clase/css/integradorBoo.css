@@ -1,0 +1,14 @@
+.botones {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoChico {
+    font-size: .9rem;
+    color: gray;
+    line-height: 1.3rem;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
