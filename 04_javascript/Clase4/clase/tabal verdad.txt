@@ -1,0 +1,13 @@
+Tabla de verdad
+
+	a	&&	b
+	V		V 	-> V
+	F		V 	-> F
+	V		F 	-> F
+	F		F 	-> F	
+	
+	a	||	b
+	V		V 	-> V
+	F		V 	-> V
+	V		F 	-> V
+	F		F 	-> F		
