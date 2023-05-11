@@ -1,0 +1,21 @@
+- instalar git 
+- crear cuenta en github
+- crear carpeta donde van a programar el integrador, crear archivo index.html 
+- terminal -> new terminal 
+- verificar version git -v
+- git init  // inicializa el proyecto en git 
+- git add . //agrega todos los archivos nuevos al área de preparación
+- git commit -m 'comentario' //sube los archivos del area preparación a repo local
+- github crear repositorio 
+- git remote add origin https://github.com/sbsanchez21/prueba23043.git
+- git push -u origin master
+
+Publicar proyecto en github pages
+- settings -> pages
+- branch -> master save
+
+Subir nuevos archivos y modificados
+- git add .
+- git commit -m 'link a oradores'
+- git push -u origin master
+
