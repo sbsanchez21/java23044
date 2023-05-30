@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-05-2023 a las 20:50:50
+-- Tiempo de generación: 30-05-2023 a las 21:35:26
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.10
 
@@ -28,10 +28,10 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `clientes` (
-  `id` int(11) DEFAULT NULL,
-  `nombre` varchar(50) DEFAULT NULL,
-  `apellido` varchar(50) DEFAULT NULL,
-  `dni` int(11) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  `dni` int(11) NOT NULL,
   `email` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -41,8 +41,31 @@ CREATE TABLE `clientes` (
 
 INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `dni`, `email`) VALUES
 (1, 'Juan', 'Perez', 23555666, NULL),
-(2, 'Kevin', 'Lopez', 334442222, ''),
+(2, 'Kevin', 'Suarez', 33444222, ''),
 (3, 'Juan', 'Suarez', 25233333, 'jsuarez@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `user` varchar(50) NOT NULL,
+  `pass` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `user`, `pass`) VALUES
+(1, 'jperez@gmail.com', '1Aaaaaaa'),
+(2, 'jsuarez@gmail.com', '1Aaaaaaa'),
+(3, 'jsanchez@gmail.com', '1Aaaaaaa'),
+(4, 'prodri@gmail.com', '1Aaaaaaa'),
+(5, 'jkevin@gmail.com', '1Aaaaaaa');
 
 -- --------------------------------------------------------
 
@@ -51,10 +74,10 @@ INSERT INTO `clientes` (`id`, `nombre`, `apellido`, `dni`, `email`) VALUES
 --
 
 CREATE TABLE `vendedores` (
-  `id` int(11) DEFAULT NULL,
-  `nombre` varchar(50) DEFAULT NULL,
-  `apellido` varchar(50) DEFAULT NULL,
-  `dni` int(11) DEFAULT NULL
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  `dni` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -64,22 +87,57 @@ CREATE TABLE `vendedores` (
 --
 
 CREATE TABLE `ventas` (
-  `id` int(11) DEFAULT NULL,
-  `producto` varchar(50) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `producto` varchar(50) NOT NULL,
   `cant` int(11) DEFAULT NULL,
-  `precio` double DEFAULT NULL
+  `precio` double DEFAULT NULL,
+  `fecha` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `ventas`
 --
 
-INSERT INTO `ventas` (`id`, `producto`, `cant`, `precio`) VALUES
-(1, 'Licuadora', 2, 50000),
-(2, 'Aspiradora', 1, 100000),
-(3, 'Licuadora', 2, 40000),
-(4, 'Secadora', 2, 50000),
-(5, 'Licuadora', 2, 50000);
+INSERT INTO `ventas` (`id`, `producto`, `cant`, `precio`, `fecha`) VALUES
+(1, 'Licuadora', 2, 50000, NULL),
+(2, 'Aspiradora', 1, 100000, NULL),
+(3, 'Licuadora', 2, 40000, NULL),
+(4, 'Secadora', 2, 50000, NULL),
+(5, 'Licuadora', 2, 50000, NULL);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `clientes`
+--
+ALTER TABLE `clientes`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `idx_clientes_dni` (`dni`),
+  ADD KEY `idx_clientes_ape` (`apellido`);
+
+--
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `vendedores`
+--
+ALTER TABLE `vendedores`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
