@@ -1,0 +1,14 @@
+INSERT INTO ventas (producto,cant,precio) VALUES ('Teclado',2,30000), ('Monitor',1,100000), ('Celular',2,150000) 
+
+SELECT * FROM `ventas` WHERE producto="Licuadora" AND precio >40000
+
+SELECT * FROM `ventas` WHERE producto="Licuadora" AND precio >40000 ORDER BY precio
+
+
+UPDATE ventas SET fecha='2018-05-05' WHERE id=5 
+
+DELETE FROM clientes WHERE id=7 
+
+SELECT AVG(precio) FROM `ventas` WHERE producto="Licuadora" 
+
+ALTER TABLE ventas ADD FOREIGN KEY (idCliente) REFERENCES clientes(id) 

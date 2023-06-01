@@ -1,0 +1,42 @@
+Tipos Relaciones entre tablas:
+==============================
+
+profesores		materias
+	1			muchas  -> un profesor puede dictar muchas materias
+	1				1	-> una materia solo puede ser dictada por un profesor
+======================	
+	1			muchas -> en la tabla materia va el id de la tabla profesores
+	
+	
+preceptores		materias
+	1				N
+	1				1
+========================
+	1				N	
+	
+	
+alumnos			materias
+	1				N
+	N				1
+===========================
+	N				N -> crear tabla relacional 
+
+Tabla alumnosMaterias:
+=====================
+idAlumno	idMateria
+	1			2
+	1			5
+	2			3
+	2			1
+	3			5
+	3			1
+	3			2
+	5			1
+	
+	
+clientes		ventas
+	1			muchas  -> un clientes puede dictar muchas compras
+	1				1	-> una compra solo puede ser hecha por un cliente
+======================	
+	1			muchas -> en la tabla ventas debe ir el idcliente
+	
