@@ -1,0 +1,24 @@
+SELECT * 
+FROM profesores 
+INNER JOIN materias 
+ON profesores.id=materias.idProfesor 
+ORDER BY profesores.id
+
+SELECT profesores.id, profesores.nombre, profesores.apellido, materias.id, materias.nombre FROM profesores INNER JOIN materias ON profesores.id=materias.idProfesor WHERE profesores.id=1 ORDER BY profesores.id 
+
+
+SELECT profesores.id, profesores.nombre, profesores.apellido, materias.id, materias.nombre FROM profesores INNER JOIN materias ON profesores.id=materias.idProfesor WHERE profesores.id=1 
+
+SELECT * FROM ventas WHERE producto="Licuadora" AND precio >=60000 
+
+
+SELECT * from profesores WHERE nombre like "%Jua%" 
+
+
+SELECT profesores.id, profesores.nombre, profesores.apellido, materias.id, materias.nombre FROM profesores INNER JOIN materias ON profesores.id=materias.idProfesor 
+
+
+SELECT alumnos.id, alumnos.nombre, alumnos.apellido, materias.id, materias.nombre
+FROM (materias INNER JOIN
+		(alumnos INNER JOIN alumnosmaterias ON alumnos.id=alumnosmaterias.idAlumno)
+     ON materias.id=alumnosmaterias.idMateria)

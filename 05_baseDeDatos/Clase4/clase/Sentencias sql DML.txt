@@ -1,0 +1,23 @@
+https://platzi.com/blog/normalizar-una-base-de-datos-y-no-morir-en-el-intento/
+
+CREATE TABLE alumnos (
+	id int not null AUTO_INCREMENT,
+    nombre varchar(50) not null,
+    apellido varchar(50) not null,
+	tel bigint,
+    PRIMARY KEY(id)
+)
+
+
+CREATE TABLE materias (
+	id int not null AUTO_INCREMENT,
+    nombre varchar(50) not null,
+    descripcion varchar(50) not null,
+	idProfesor int,
+    idPreceptor int,
+    PRIMARY KEY(id),
+    FOREIGN KEY (idProfesor) REFERENCES profesores(id),
+    FOREIGN KEY (idPreceptor) REFERENCES preceptores(id)
+)
+
+CREATE TABLE alumnosMaterias( idAlumno int not null, idMateria int not null, FOREIGN key (idAlumno) REFERENCES alumnos(id), FOREIGN key (idMateria) REFERENCES materias(id) ) 

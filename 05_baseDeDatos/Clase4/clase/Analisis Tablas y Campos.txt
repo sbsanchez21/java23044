@@ -1,0 +1,82 @@
+Sistema admin alumnos:
+=======================
+
+Identificación Entidades:
+- Alumnos
+- Profesor
+- Preceptor
+- Materias
+
+Alumnos:
+id 	int not null
+nombre	varchar not null
+apellido	varchar not null 
+materiasCursadas ?varias null 
+email	varchar null 
+tel		bigint null 
+dni		int not null 
+idDireccion	int
+fechaNac	date not null 
+observaciones	varchar null 
+fotoPerfil	blob null 
+pasaporte varchar null 
+
+
+Direccion:
+id	int not null 
+calle	varchar not null 
+nro		int not null 
+piso	int null
+dpto	varchar null 
+localidad varchar not null (lista localidades) -> todo: normalizar en otra tabla, depende de la provincia seleccionada
+provincia	varchar not null (lista provicincias Argentina) -> todo: normalizar en otra tabla
+codPostal	varchar not null
+
+
+Profesores:
+id	int
+nombre	varchar
+apellido	varchar
+materiasDictadas ?varias
+email	varchar
+tel		bigint
+dni		int 
+idDireccion int
+fechaNac	date
+observaciones	varchar
+fotoPerfil	blob
+pasaporte varchar
+
+
+Preceptor:
+id	int
+nombre	varchar
+apellido	varchar
+materiasAdmin ?varias
+email	varchar
+tel		bigint
+dni		int 
+idDireccion int
+fechaNac	date
+observaciones	varchar
+fotoPerfil	blob
+pasaporte varchar
+
+
+Materias:
+id	int
+nombre 	varchar
+descripcion varchar
+alumnos ?varios -> a tabla relacional
+profesor ?uno -> a tabla relacional
+anio	yer
+horarios varchar
+idProfesor int (foreingkey tabla Profesores)
+idPrecpetor int (foreingkey tabla Preceptores)
+
+
+alumnosMaterias
+idAlumno int (foreingkey tabla Alumnos)
+idMateria int (foreingkey tabla Materias)
+fechaIniCurso date
+fechaFinCurso date
