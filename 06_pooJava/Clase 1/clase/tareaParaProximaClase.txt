@@ -1,0 +1,3 @@
+Instalar jdk
+instalar eclipse
+crear un dynamic web project
