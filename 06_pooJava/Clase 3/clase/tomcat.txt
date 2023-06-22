@@ -1,0 +1,7 @@
+configurar tomcat: servidor para levantar jsp y ponerlos disponibles para utilizar
+1- mostrar solapa server:  menu windows -> show view -> other -> buscar server -> open
+2- crear un server tomcat: click derecho en cuerpo solapa server -> new server -> filtrar tomcat -> seleccionar tomcat 10 -> next
+3- instalar tomcat: ventana tomcat server -> download and install -> seleccionar carpta donde instalar
+4- seleccionar tomcat recientemente instalado: click browse -> elegir carpeta donde se instalo tomcat -> next
+5- seleccionar proyecto que se va a levantar con tomcat: click add de izq a derecha
+6- levantar un archivo jsp: src->main->webapp->index.jsp -> click derecho -> run as -> run on server
